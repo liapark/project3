@@ -1,0 +1,255 @@
+<HEAD>
+<STYLE TYPE="text/css">
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+  html body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+font-family: 'Quicksand', sans-serif;
+}
+/* General */
+
+header .logo {
+  border: solid 2px black;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.display-menu {
+  background-color: #74491a;
+}
+
+.display-menu ul a {
+  color: white;
+}
+header h1{
+  letter-spacing: 8px;
+  color: white;
+}
+
+.tomo {
+  width: 100%;
+  display: block;
+  position: relative;
+margin: 0 auto;
+}
+.welcome {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+footer .push{
+  color: #74491a;
+  position: relative;
+  height: 4em;
+}
+footer{
+    font-size: 12px;
+     margin: 0 auto;
+}
+footer a{
+  text-decoration: none;
+  color: #74491a;
+}
+footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+footer .contact-first{
+  width: 200px;
+  text-align: center;
+}
+footer .visit{
+  text-align: center;
+}
+
+.subfooter {
+  text-align: center;
+}
+
+.subfooter p{
+  margin: 100px;
+}
+
+/* ICON */
+
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: #74491a;
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 800px) {
+
+  header {
+    background-color: #74491a;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    display: inline-block;
+    border: none;
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+  header .logo {
+    display: inline-block;
+    border: none;
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-repeat: no-repeat;
+  }
+  header h1{
+  letter-spacing: 8px;
+  font-size: 48px;
+}
+header nav ul {
+  display: block;
+  text-align: center;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 25px 50px;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+}
+header nav li:hover{
+  background-color: #a0703d;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+   .welcome {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    color: #74491a;
+  }
+  .welcome h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 36px;
+  }
+  .welcome h3{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #74491a;
+    height: 100px;
+    margin-top: 0;
+  }
+
+  .clearfix {
+    overflow: auto;
+  }
+
+  header .logo {
+    display: inline-block;
+    border: none;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    margin-top: 15px;
+  
+  }
+header nav ul {
+  display: block;
+  text-align: center;
+  padding: 0px;
+  margin: 0 auto;
+}
+header nav li {
+  display: inline-block;
+  padding: 3% 4%;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+}
+header nav li:hover{
+  background-color: #a0703d;
+}
+
+header nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.welcome {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    color: #74491a;
+  }
+  .welcome h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 36px;
+  }
+  .welcome h3{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+
+</STYLE>
+</HEAD>
