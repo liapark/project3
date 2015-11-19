@@ -1,13 +1,11 @@
 <HEAD>
 <STYLE TYPE="text/css">
 
+/* ICON */
 @import url(http://weloveiconfonts.com/api/?family=brandico);
-/* brandico */
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-}
 
-  html body {
+
+html body {
   margin: 0;
   padding: 0;
 }
@@ -21,7 +19,7 @@ font-family: 'Quicksand', sans-serif;
 header .logo {
   border: solid 2px black;
   display: block;
-  width: 120px;
+  width: 100px;
   margin: 0 auto;
 }
 
@@ -55,6 +53,11 @@ footer .push{
   position: relative;
   height: 4em;
 }
+footer .line{
+  border: 1px solid black;
+  margin-top: 20%;
+  margin-bottom: 0;
+}
 footer{
     font-size: 12px;
      margin: 0 auto;
@@ -67,38 +70,29 @@ footer li {
   list-style-type: none;
   display: inline-block;
 }
-footer .contact-first{
-  width: 200px;
-  text-align: center;
-}
-footer .visit{
-  text-align: center;
-}
 
-.subfooter {
-  text-align: center;
-}
 
-.subfooter p{
-  margin: 100px;
-}
 
-/* ICON */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
 
 
 ul.social-buttons {
   text-align: center;
   margin-top: 50px;
+  position: relative;
+  width: 300px;
 }
 
 ul.social-buttons li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 10px;
 }
 
 ul.social-buttons li a {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   display: block;
   border-radius: 50px;
   text-decoration: none;
@@ -128,9 +122,12 @@ ul.social-buttons li a {
     border: none;
     float: left;
     width: 120px;
-    margin: 30px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("http://cfile266.uf.daum.net/image/23644746564D0C2224C08E");
+    background-size: contain;
+    margin-top: 0px;
     margin-bottom: 0;
-    margin-top: 0;
     background-repeat: no-repeat;
   }
   header h1{
@@ -180,6 +177,34 @@ header nav li a {
     letter-spacing: 1px;
     line-height: 28px;
   }
+
+  footer .email{
+  width: 150px;
+  text-align: center;
+    margin-top: 50px;
+}
+footer .phone{
+  width: 150px;
+  text-align: center;
+    margin-top: 50px;
+  }
+footer .visit{
+  text-align: center;
+    width: 200px;
+}
+
+.subfooter {
+  text-align: center;
+}
+
+.subfooter li{
+    margin: 0 50px;
+}
+
+.subfooter p{
+  margin: 80px;
+}
+
 }
 
 /* MOBILE */
@@ -201,11 +226,13 @@ header nav li a {
   header .logo {
     display: inline-block;
     border: none;
-    width: 60px;
+    width: 80px;
+    height: 50px;
     float: left;
     margin: 5px;
     margin-top: 15px;
-  
+    background: url("http://cfile266.uf.daum.net/image/23644746564D0C2224C08E");
+    background-size: cover;
   }
 header nav ul {
   display: block;
@@ -248,6 +275,33 @@ header nav li a {
     letter-spacing: 1px;
     line-height: 28px;
   }
+  footer .email{
+  width: 150px;
+  text-align: center;
+    margin-top: 50px;
+}
+footer .phone{
+  width: 150px;
+  text-align: center;
+    margin-top: 50px;
+  }
+footer .visit{
+  text-align: center;
+    width: 250px;
+}
+
+.subfooter {
+  text-align: center;
+}
+
+.subfooter li{
+    margin: 0 20px;
+}
+
+.subfooter p{
+  margin: 60px;
+}
+
 
 </STYLE>
 </HEAD>
