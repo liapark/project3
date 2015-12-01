@@ -39,12 +39,17 @@ header h1{
   position: relative;
 margin: 0 auto;
 }
+
 .welcome {
 min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto -4em;
 }
+.welcome .line2{
+  border: 1px solid black;
+  margin-top: 2%;
+  margin-bottom}
 
 footer .push{
   color: #74491a;
@@ -170,7 +175,12 @@ header nav li a {
     letter-spacing: 1px;
     line-height: 36px;
   }
-  .welcome h3{
+  .welcome .explanation1{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+  .welcome .explanation2{
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 28px;
@@ -232,6 +242,10 @@ footer .visit{
     background: url("http://cfile266.uf.daum.net/image/23644746564D0C2224C08E");
     background-size: cover;
   }
+ header h1{
+  letter-spacing: 8px;
+  font-size: 28px;
+}
 header nav ul {
   display: block;
   text-align: center;
@@ -241,7 +255,7 @@ header nav ul {
 header nav li {
   display: inline-block;
   padding: 3% 4%;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 2.5px;
 }
 header nav li:hover{
@@ -268,8 +282,13 @@ header nav li a {
     letter-spacing: 1px;
     line-height: 36px;
   }
-  .welcome h3{
+  .welcome .explanation1{
     font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+   .welcome .explanation2{
+    font-size: 14px;
     letter-spacing: 1px;
     line-height: 28px;
   }
@@ -285,7 +304,9 @@ footer .phone{
   }
 footer .visit{
   text-align: center;
-    width: 250px;
+    width: 170px;
+    margin-left: 0;
+    display: inline-block;
 }
 
 .subfooter {
@@ -293,7 +314,7 @@ footer .visit{
 }
 
 .subfooter li{
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 .subfooter p{
