@@ -4,8 +4,8 @@
 
 
 html body {
-  margin: 0;
-  padding: 0;
+margin: 0 !important;
+    padding: 0 !important;
 }
 
 body {
@@ -14,8 +14,9 @@ font-family: 'Quicksand', sans-serif;
 }
 /* General */
 
+
 header .logo {
-  border: solid 2px black;
+  border: solid 2px white;
   display: block;
   width: 100px;
   margin: 0 auto;
@@ -28,7 +29,7 @@ header .logo {
 .display-menu ul a {
   color: white;
 }
-header h1{
+header h1 .title{
   letter-spacing: 8px;
   color: white;
 }
@@ -39,6 +40,8 @@ header h1{
   position: relative;
 margin: 0 auto;
 }
+
+
 
 .welcome {
 min-height: 100%;
@@ -51,10 +54,11 @@ margin: 0 auto -4em;
   margin-top: 2%;
   margin-bottom}
 
-footer .push{
-  color: #74491a;
+  .tomo2{
+  width: 100%;
+  display: block;
   position: relative;
-  height: 4em;
+margin: 0 auto;
 }
 footer .line{
   border: 1px solid black;
@@ -133,9 +137,10 @@ ul.social-buttons li a {
     margin-bottom: 0;
     background-repeat: no-repeat;
   }
-  header h1{
+  header h1 {
   letter-spacing: 8px;
   font-size: 48px;
+
 }
 header nav ul {
   display: block;
@@ -170,22 +175,19 @@ header nav li a {
     height: 100%;
     color: #74491a;
   }
-  .welcome h1{
+  .welcome h1 {
     font-size: 28px;
     letter-spacing: 1px;
-    line-height: 36px;
-  }
-  .welcome .explanation1{
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 28px;
-  }
-  .welcome .explanation2{
+    line-height: 60px;
+  } 
+
+  .welcome h3{
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 28px;
   }
 
+ 
   footer .email{
   width: 150px;
   text-align: center;
@@ -213,7 +215,7 @@ footer .visit{
   margin: 80px;
 }
 
-}
+
 
 /* MOBILE */
 
@@ -245,7 +247,9 @@ footer .visit{
  header h1{
   letter-spacing: 8px;
   font-size: 28px;
+
 }
+
 header nav ul {
   display: block;
   text-align: center;
@@ -292,6 +296,7 @@ header nav li a {
     letter-spacing: 1px;
     line-height: 28px;
   }
+
   footer .email{
   width: 150px;
   text-align: center;
