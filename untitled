@@ -127,7 +127,7 @@ ul.social-buttons li a {
     width: 120px;
     height: 80px;
     margin: 0 auto;
-    background: url("https://raw.githubusercontent.com/liapark/project3/92a0efb80343d463ec75b646bc762af3cb05accb/img/coffeetomologo.png");
+    background: url("http://cfile266.uf.daum.net/image/23644746564D0C2224C08E");
     background-size: contain;
     margin-top: 0px;
     margin-bottom: 0;
@@ -239,12 +239,12 @@ footer .visit{
     float: left;
     margin: 5px;
     margin-top: 15px;
-    background: url("https://raw.githubusercontent.com/liapark/project3/92a0efb80343d463ec75b646bc762af3cb05accb/img/coffeetomologo.png");
+    background: url("http://cfile266.uf.daum.net/image/23644746564D0C2224C08E");
     background-size: cover;
   }
  header h1{
-  letter-spacing: 5px;
-  font-size: 24px;
+  letter-spacing: 8px;
+  font-size: 28px;
 }
 header nav ul {
   display: block;

@@ -4,8 +4,8 @@
 
 
 html body {
-  margin: 0;
-  padding: 0;
+margin: 0 !important;
+    padding: 0 !important;
 }
 
 body {
@@ -14,8 +14,9 @@ font-family: 'Quicksand', sans-serif;
 }
 /* General */
 
+
 header .logo {
-  border: solid 2px black;
+  border: solid 2px white;
   display: block;
   width: 100px;
   margin: 0 auto;
@@ -28,7 +29,7 @@ header .logo {
 .display-menu ul a {
   color: white;
 }
-header h1{
+header h1 .title{
   letter-spacing: 8px;
   color: white;
 }
@@ -39,6 +40,8 @@ header h1{
   position: relative;
 margin: 0 auto;
 }
+
+
 
 .welcome {
 min-height: 100%;
@@ -51,10 +54,11 @@ margin: 0 auto -4em;
   margin-top: 2%;
   margin-bottom}
 
-footer .push{
-  color: #74491a;
+  .tomo2{
+  width: 70%;
+  display: block;
   position: relative;
-  height: 4em;
+margin: 0 auto;
 }
 footer .line{
   border: 1px solid black;
@@ -105,6 +109,7 @@ ul.social-buttons li a {
 }
 
 
+
 /* DESKTOP */
 
 @media screen and (min-width: 800px) {
@@ -127,15 +132,16 @@ ul.social-buttons li a {
     width: 120px;
     height: 80px;
     margin: 0 auto;
-    background: url("https://raw.githubusercontent.com/liapark/project3/92a0efb80343d463ec75b646bc762af3cb05accb/img/coffeetomologo.png");
+    background: url("http://cfile266.uf.daum.net/image/23644746564D0C2224C08E");
     background-size: contain;
     margin-top: 0px;
     margin-bottom: 0;
     background-repeat: no-repeat;
   }
-  header h1{
+  header h1 {
   letter-spacing: 8px;
   font-size: 48px;
+
 }
 header nav ul {
   display: block;
@@ -170,22 +176,19 @@ header nav li a {
     height: 100%;
     color: #74491a;
   }
-  .welcome h1{
+  .welcome h1 {
     font-size: 28px;
     letter-spacing: 1px;
-    line-height: 36px;
-  }
-  .welcome .explanation1{
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 28px;
-  }
-  .welcome .explanation2{
+    line-height: 60px;
+  } 
+
+  .welcome h3{
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 28px;
   }
 
+ 
   footer .email{
   width: 150px;
   text-align: center;
@@ -212,8 +215,9 @@ footer .visit{
 .subfooter p{
   margin: 80px;
 }
-
 }
+
+
 
 /* MOBILE */
 
@@ -239,13 +243,15 @@ footer .visit{
     float: left;
     margin: 5px;
     margin-top: 15px;
-    background: url("https://raw.githubusercontent.com/liapark/project3/92a0efb80343d463ec75b646bc762af3cb05accb/img/coffeetomologo.png");
+    background: url("http://cfile266.uf.daum.net/image/23644746564D0C2224C08E");
     background-size: cover;
   }
  header h1{
-  letter-spacing: 5px;
-  font-size: 24px;
+  letter-spacing: 8px;
+  font-size: 28px;
+
 }
+
 header nav ul {
   display: block;
   text-align: center;
@@ -292,6 +298,7 @@ header nav li a {
     letter-spacing: 1px;
     line-height: 28px;
   }
+
   footer .email{
   width: 150px;
   text-align: center;
@@ -319,4 +326,5 @@ footer .visit{
 
 .subfooter p{
   margin: 60px;
+}
 }
