@@ -186,6 +186,7 @@ header nav li a {
     line-height: 28px;
   }
 
+
   footer .email{
   width: 150px;
   text-align: center;
@@ -292,6 +293,10 @@ header nav li a {
     letter-spacing: 1px;
     line-height: 28px;
   }
+  .welcome p{
+    font-size: 12px;
+  }
+
   footer .email{
   width: 150px;
   text-align: center;
