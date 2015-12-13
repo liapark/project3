@@ -303,9 +303,9 @@ footer .phone{
     margin-top: 50px;
   }
 footer .visit{
-  text-align: center;
+  text-align: left;
     width: 170px;
-    margin-left: 0;
+    margin: 0;
     display: inline-block;
 }
 
@@ -314,9 +314,9 @@ footer .visit{
 }
 
 .subfooter li{
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .subfooter p{
-  margin: 60px;
+  margin: 50px;
 }
